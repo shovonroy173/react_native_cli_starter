@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './global.css';
-import { StatusBar, Text } from 'react-native';
-import RNBootSplash from 'react-native-bootsplash'; // bootsplash import
+import RNBootSplash from 'react-native-bootsplash'; 
 import SplashScreenAnimated from './src/root/SplashScreenAnimated';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
@@ -17,6 +16,7 @@ function App() {
   };
 
   return (
+    // for fresh starter remove all these and start
     <SafeAreaProvider>
       <NavigationContainer>
         <SafeAreaView className="flex-1">
